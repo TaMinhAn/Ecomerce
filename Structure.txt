@@ -1,0 +1,39 @@
+Structure
+ecommerce [main]
+├── img
+├── lib
+├── src
+│   └── main
+│       └── java
+│           └── com
+│               └── six
+│                   └── ecommerce
+│                       ├── controller
+│                       │   └── LoginController.java
+│                       ├── database
+│                       │   ├── CustomerDAO.java
+│                       │   ├── DBConnection.java
+│                       │   ├── OrderDAO.java
+│                       │   ├── ProductDAO.java
+│                       │   ├── SellerDAO.java
+│                       │   └── test.java
+│                       ├── model
+│                       │   ├── Cart.java
+│                       │   ├── CartItem.java
+│                       │   ├── Customer.java
+│                       │   ├── Order.java 
+│                       │   ├── Product.java
+│                       │   ├── Seller.java
+│                       │   └── User.java
+│                       └── view
+│                           ├── CartWindow.java
+│                           ├── LoginWindow.java
+│                           ├── OrderManagementUI.java
+│                           ├── ProductCatalogUI.java
+│                           ├── ProductDetailWindow.java
+│                           └── ProductItem.java
+└── test
+
+*database chứa tất cả file liên quan den SQL
+*tat ca cac file test khong quan trong
+*lib chua file jar cua sql connector

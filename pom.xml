@@ -5,8 +5,21 @@
     <artifactId>ecommerce</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    
-<dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <compilerArgs>
+                        <arg>--enable-preview</arg>
+                    </compilerArgs>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <dependencies>
     <!-- ✅ Add this block if it's missing -->
     <dependency>
         <groupId>mysql</groupId>

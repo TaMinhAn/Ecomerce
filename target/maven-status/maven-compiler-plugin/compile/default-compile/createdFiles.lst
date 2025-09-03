@@ -2,7 +2,9 @@ model\CartItem.class
 view\ProductItem.class
 database\OrderDAO.class
 model\Cart.class
+model\Order.class
 database\CustomerDAO.class
+view\OrderManagementUI.class
 com\six\ecommerce\Ecommerce.class
 controller\LoginController.class
 model\Product.class
